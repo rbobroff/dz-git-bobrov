@@ -19,3 +19,9 @@ git commit -m "Добавлен код для возвращения html с с�
 git push origin main
 
 
+7. Создал fork для рандомного репозитория:
+Николай Данусевич	https://github.com/kannade/js_hw
+
+Ссылка:
+https://github.com/rbobroff/js_hw.git
+
