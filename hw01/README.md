@@ -15,7 +15,7 @@ git pull origin main
 5. Добавлен файл app.js с кодом
 6. 
 git add .
-git commit -m “Добавлен код для возвращения html с сервера”
-git push
+git commit -m "Добавлен код для возвращения html с сервера"
+git push origin main
 
 
