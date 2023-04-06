@@ -1,4 +1,4 @@
-# hw02_sql
+# hw03_sql
 
 CREATE DATABASE chocolate_db;
 
