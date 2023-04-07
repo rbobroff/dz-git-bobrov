@@ -1,0 +1,116 @@
+Microsoft Windows [Version 10.0.19045.2728]
+(c) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+C:\Users\Пользователь>cd C:\Users\Пользователь\Documents\GIT\JS_GIT_Full_Stack_Developer\dz-git-bobrov\hw05_ts
+
+C:\Users\Пользователь\Documents\GIT\JS_GIT_Full_Stack_Developer\dz-git-bobrov\hw05_ts>tsc list2.ts
+list2.ts:36:17 - error TS2339: Property 'previous' does not exist on type 'never'.
+
+36       this.head.previous = newNode;
+                   ~~~~~~~~
+
+list2.ts:40:5 - error TS2322: Type 'DoublyLinkedListNode' is not assignable to type 'null'.
+
+40     this.head = newNode;
+       ~~~~~~~~~
+
+list2.ts:44:7 - error TS2322: Type 'DoublyLinkedListNode' is not assignable to type 'null'.
+
+44       this.tail = newNode;
+         ~~~~~~~~~
+
+list2.ts:59:17 - error TS2339: Property 'next' does not exist on type 'never'.
+
+59       this.tail.next = newNode;
+                   ~~~~
+
+list2.ts:67:5 - error TS2322: Type 'DoublyLinkedListNode' is not assignable to type 'null'.
+
+67     this.tail = newNode;
+       ~~~~~~~~~
+
+list2.ts:71:7 - error TS2322: Type 'DoublyLinkedListNode' is not assignable to type 'null'.
+
+71       this.head = newNode;
+         ~~~~~~~~~
+
+list2.ts:92:21 - error TS2339: Property 'value' does not exist on type 'never'.
+
+92     if (currentNode.value === value) {
+                       ~~~~~
+
+list2.ts:103:21 - error TS2339: Property 'previous' does not exist on type 'never'.
+
+103           this.head.previous = null;
+                        ~~~~~~~~
+
+list2.ts:117:9 - error TS2531: Object is possibly 'null'.
+
+117         this.tail.next = null;
+            ~~~~~~~~~
+
+list2.ts:132:5 - error TS2322: Type 'any' is not assignable to type 'never'.
+
+132     currentNode = currentNode.next;
+        ~~~~~~~~~~~
+
+list2.ts:132:31 - error TS2339: Property 'next' does not exist on type 'never'.
+
+132     currentNode = currentNode.next;
+                                  ~~~~
+
+list2.ts:150:19 - error TS2339: Property 'previous' does not exist on type 'never'.
+
+150     if (this.tail.previous) {
+                      ~~~~~~~~
+
+list2.ts:152:29 - error TS2339: Property 'previous' does not exist on type 'never'.
+
+152       this.tail = this.tail.previous;
+                                ~~~~~~~~
+
+list2.ts:154:7 - error TS2531: Object is possibly 'null'.
+
+154       this.tail.next = null;
+          ~~~~~~~~~
+
+list2.ts:178:19 - error TS2339: Property 'next' does not exist on type 'never'.
+
+178     if (this.head.next) {
+                      ~~~~
+
+list2.ts:180:29 - error TS2339: Property 'next' does not exist on type 'never'.
+
+180       this.head = this.head.next;
+                                ~~~~
+
+list2.ts:182:7 - error TS2531: Object is possibly 'null'.
+
+182       this.head.previous = null;
+          ~~~~~~~~~
+
+list2.ts:207:46 - error TS2339: Property 'value' does not exist on type 'never'.
+
+207       if (value !== undefined && currentNode.value === value) {
+                                                 ~~~~~
+
+list2.ts:212:7 - error TS2322: Type 'any' is not assignable to type 'never'.
+
+212       currentNode = currentNode.next;
+          ~~~~~~~~~~~
+
+list2.ts:212:33 - error TS2339: Property 'next' does not exist on type 'never'.
+
+212       currentNode = currentNode.next;
+                                    ~~~~
+
+list2.ts:229:33 - error TS2339: Property 'next' does not exist on type 'never'.
+
+229       currentNode = currentNode.next;
+                                    ~~~~
+
+
+Found 21 errors in the same file, starting at: list2.ts:36
+
+
+C:\Users\Пользователь\Documents\GIT\JS_GIT_Full_Stack_Developer\dz-git-bobrov\hw05_ts>C:\Users\Пользователь\Documents\GIT\JS_GIT_Full_Stack_Developer\dz-git-bobrov\hw05_ts

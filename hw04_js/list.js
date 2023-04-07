@@ -13,7 +13,7 @@ class DoublyLinkedListNode {
 class DoublyLinkedList {
     constructor(head = null, tail = null) {
         this.head = head
-        this.tail = head
+        this.tail = tail
     } 
 
 //Prepend - создаем узел и помещаем его в начало списка
